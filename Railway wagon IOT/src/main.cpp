@@ -91,7 +91,7 @@ void loop() {
 
     // Read Thermistor
     float resistance = (10000.0 * (4095.0 / analogRead(thermistorPin) - 1.0));
-    float steinhart = 1.0 / (0.001129148 + (0.000234125 * log(resistance / 10000.0)) - 273.15;
+    float steinhart = 1.0 / (0.001129148 + (0.000234125 * log(resistance / 10000.0)) - 273.15);
     data["thermistor_temp"] = steinhart;
 
     // Vibration Sensor
