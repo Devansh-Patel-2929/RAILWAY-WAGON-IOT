@@ -8,9 +8,9 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "XXXXXXXXX";
-const char* password = "XXXXXXXXX";
-const char* serverURL = "XXXXXXXX";
+const char* ssid = "IOT";
+const char* password = "12345678";
+const char* serverURL = "http://localhost:3000/";
 
 // Pins for Load Cell
 const int HX711_dout = 4;
